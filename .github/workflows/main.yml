@@ -1,0 +1,11 @@
+name: TDS GA2 Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2004974@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions!"
